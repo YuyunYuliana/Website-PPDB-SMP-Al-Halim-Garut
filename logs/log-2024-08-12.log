@@ -1,0 +1,8 @@
+CRITICAL - 2024-08-12 23:05:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ppdb-ci4\app\Controllers\Siswa.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ppdb-ci4\system\CodeIgniter.php(921): App\Controllers\Siswa->hapusppdb()
+#2 C:\xampp\htdocs\ppdb-ci4\system\CodeIgniter.php(407): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 C:\xampp\htdocs\ppdb-ci4\system\CodeIgniter.php(315): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ppdb-ci4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ppdb-ci4\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
